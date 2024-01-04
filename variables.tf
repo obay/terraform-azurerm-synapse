@@ -1,3 +1,11 @@
+variable "tenant_id" {
+  type = string
+}
+
+variable "subscription_id" {
+  type = string
+}
+
 variable "resource_group_location" {
   description = "The location of the resource group"
   type        = string
