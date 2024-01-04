@@ -6,5 +6,5 @@ resource "azurerm_storage_account" "project-storage" {
   account_replication_type      = "GRS"
   account_kind                  = "StorageV2"
   is_hns_enabled                = "true"
-  public_network_access_enabled = true
+  public_network_access_enabled = false
 }
