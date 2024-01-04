@@ -7,7 +7,7 @@ resource "azurerm_synapse_workspace" "project-synapse" {
   managed_virtual_network_enabled      = true
   sql_administrator_login              = var.sql_administrator_login
   sql_administrator_login_password     = var.sql_administrator_login_password
-  public_network_access_enabled        = true
+  public_network_access_enabled        = false
 
   identity {
     type = "SystemAssigned"
