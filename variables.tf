@@ -1,18 +1,18 @@
-variable "tenant_id" {
-  type = string
-}
+# variable "tenant_id" {
+#   type = string
+# }
 
-variable "subscription_id" {
-  type = string
-}
+# variable "subscription_id" {
+#   type = string
+# }
 
-variable "client_id" {
-  type = string
-}
+# variable "client_id" {
+#   type = string
+# }
 
-variable "client_secret" {
-  type = string
-}
+# variable "client_secret" {
+#   type = string
+# }
 
 variable "resource_group_location" {
   description = "The location of the resource group"
@@ -33,11 +33,6 @@ variable "sql_administrator_login" {
 
 variable "sql_administrator_login_password" {
   description = "The password of the SQL administrator"
-  type        = string
-}
-
-variable "MyPublicIP" {
-  description = "The public IP address of the user"
   type        = string
 }
 
